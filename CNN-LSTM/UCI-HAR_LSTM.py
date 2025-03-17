@@ -59,6 +59,7 @@ X_test = pd.read_csv(test_path + 'X_test.txt', sep=r'\s+', header=None, names=fe
 y_test = pd.read_csv(test_path + 'y_test.txt', sep=r'\s+', header=None, names=['activity_id'])
 subject_test = pd.read_csv(test_path + 'subject_test.txt', sep=r'\s+', header=None, names=['subject'])
 
+print(X_train.shape)
 
 # ==================================================== Preprocessing ===================================================
 
